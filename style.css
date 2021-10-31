@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.section{
+    list-style: none;    /*başlıklarının default özelliklerini kaldırdı.İşaretleyici türünü belirler(circle) */
+    display: flex;  /*öğeleri yan yana sağ tarafa sıraladı*/
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+    background-color:#35424A;  /*section öğesinin arka planına renk verdik*/
+    font-size: 1.5rem;  /*yazı boyutunu ayarladık*/
+    padding: 0.75rem;  /*content arasında ki mesafeyi belirliyor*/
+    color: white;  /*yazı rengini ayarladı*/
+    border-bottom: 3px solid rgb(169, 80, 139);  /*alt kenarlığı rengi ile birlikte ayarladı*/
+}
+
+.section a span{
+     color: rgb(169, 80, 139);  /*home öğesinin rengini değiştirdik*/
+}
+
+.section a{
+    font-size: 1rem;  /*a öğelerinin yazı boyutları ayarlandı*/
+    text-decoration: none;  /*default özelliği olan altında ki çizgiyi kaldırdı*/
+    color: white;  /*yazı rengi belirlendi*/
+    padding: 5px;  /*a öğlerinin aralarında ki boşluk ayarlandı*/
+}
+
+/* section{
+    border-bottom: 3px solid rgb(169, 80, 139);
+} */
+
+.section-one{
+    margin-right: auto;  /* bir öğeyi yatayda ortalamak istersek kullanılır*/
+    font-size: 2rem;  /*başlığın yazı boyutunu ayarladı*/
+    font-weight: bold;  /*yazının kalınlığını belirler derecelerle ile gösterebilirdik*/
+}
+
+.section-one span{
+    color: rgb(169, 80, 139);  /*başlıktaki span elementinin rengini değiştirdi*/
+}
+
+
+
+header{
+    /* text-align: center; */
+    color: white;  /*header içindeki yazılara beyaz renk verdi*/
+    background-image: url(./images/showcase.jpg);  /*arka plana resim eklendik*/
+    background-repeat: no-repeat;  /*arka planın tekrarlanmaması için*/
+    background-size: cover;  /*full ekran oluyor ve resmin boyutlarına göre resmi oranlıyor.*/
+    height: 400px;  /*resmin yüksekliğini ayarladı*/
+    display: flex; /*yazıları ortaladı */
+    flex-direction: column;  /*sağdan ve soldan öğeler hizalanır*/
+    align-items: center;  /*satır içindeki öğelerin yüksekliğini veya konumunu değiştirir*/
+    justify-content: center;  /*elemanlar header ortasına konumlandırılmıştır*/
+    width: 100%;  /*genişlik verir*/
+    background-position: center;  /*arka plan görselini yatay ve dikey ortalar*/
+    line-height: 4rem;  /*satır arası yüksekliği belirler*/
+}
+
+header h1{
+    font-size: 4rem;  /*h1 öğesinin yazı boyutu ayarlandı*/
+}
+
+header p{
+    font-size: 1.3rem;  /*p elementinin yazı boyutu ayarlandı*/
+}
+
+#area-2{
+    /* padding: 0.75 rem; */    /*buda aynı görevi görür*/
+    height: 5rem;  /* content arasında ki mesafeyi beliğrliyor*/
+    display: flex;   /*yazıları birbirinden ayırdı*/
+    justify-content: space-between;   /*İlk nesne başta, son nesne sonda olacak şekilde nesneler eşit olarak kapsayıcının içerisinde dizilirler.*/
+    background-color:#35424A;  /*arkaplan rengi ayarlandı*/
+    padding: 1rem;  /*content kısmı ile container arası mesafe açıldı*/
+    color: white;  /*yazıların rengi belirlendi*/
+    align-items: center;    /*yazılar container içinde ortalandı*/
+}
+
+.right{
+    width: 14%;  /*genişlikleri ayarlar email ve button arasındaki*/
+   
+}
+
+form{
+    display: flex;  /*yazıları yan yana getirdi*/
+}
+
+.button{
+    color: white;  /*buton içindeki yazıyı beyaz yaptı*/
+    background-color: #E8491D;  /*arkaplan rengi verdi*/
+    width: 5rem;  /*genişlik verdi*/
+    border: 8px solid #E8491D;  /*kenarlık ve renk ekledi*/
+}
+
+.mail{
+    width: 68%;  /*genişlik verdi*/
+    padding-left: 10px;  /*mail kısmının content alanıyla dış aladı ayırdı*/
+}
+
+#area-3{
+    display: flex;  /*html,css ve brushu ortalayıp yan yana hizaladı*/
+    padding: 2rem;  /*content kısmıyla dış alana mesafe koydu*/
+}
+
+.section-html, .section-css, .section-brush{
+    text-align: center;  /*başlıkları yazıları resimleri ortaladı kendi içinde*/
+}
+
+#area-3 img{
+    width: 90px;  /*resimlere boyut verdi*/
+}
+
+#area-4{
+     display: flex;   /*container içindekileri ortaladı*/
+    flex-direction: column;  /*sağdan ve soldan öğeleri üst üste getirdi*/
+    align-items: center;  /*bunları ortaladı*/
+    background-color:#35424A; /*arkaplan rengi verdi*/
+    color: white;  /*yazılara renk verdi*/
+    padding: 2.3rem;  /*content ve container arasını açtı*/
+}
+
+
+/******************************* about **********************************/
+
+
+
+#area-5{
+    display: flex;  /*container içindekileri ortaladı*/
+    background-color: rgb(244,244,244);  /*arkaplan rengi verildi*/
+    padding: 20px 30px 365px 40px;  /*üstten,sağdan,alttan,soldan aralık değerleri verildi*/
+}
+
+.section-3{
+    width: 170%;  /*p etiketinin genişliği verildi*/
+    padding-right: 40px;  /*p etiketinin sağ tarafını toparladı*/
+}
+
+.head, .text-1{
+    padding-bottom: 20px;  /*conten kısmının alt alanıyla mesafe açtı*/
+}
+
+.text-2{
+    background-color: rgb(53,66,74);  /*text-2 nin p etiketinin arkaplan rengini değiştirdi*/
+    color: white;  /*yazılarını beyaz yaptı*/
+    padding: 10px 10px;  /*üstten-alttan  sağdan-soldan aralık bıraktı*/
+}
+
+#area-6{
+    padding-left: 100px;  /*content kısmının sol padding arasını açtı*/
+}
+
+.section-4{
+    background-color: rgb(53,66,74);
+    color: white;
+}
+
+
+
+/***************************** services ******************************/
+
+                    
+#area-7{
+    display: flex;  /*area-7 içinde ki tüm sectionları ortaladı*/
+    background-color: rgb(244,244,244);   /*arkaplan rengi verildi*/
+    padding: 20px 30px 40px 40px;   /*tüm sectionlara üstten-sağdan alttan-soldan aralık verildi*/
+}   
+
+.section-5{
+    width: 150%;   /*genişlik değeri verildi*/
+    padding-right: 40px;  /*content kısmının sağ tarafında ki dışıyla araya mesafe koyuldu*/
+}
+
+.head-3{
+    padding-bottom: 20px;  /*alttan mesafe verildi*/
+}
+
+.section-6, .section-7, .section-8{
+    background-color:rgb(230,230,230);  /*toplu sectionlara arka plan rengi eklendi*/
+    border: 1px solid lightgrey;  /*kenarlık ve renk verildi*/
+    padding: 45px;  /*content kısmının her bir tarafının mesafesi açıldı*/
+    margin-bottom: 8px;  /*sectionlar arası mesafe açıldı*/
+}
+
+.head-4, .head-5, .head-6{
+    padding-bottom: 15px;   /*başlıklar ve paragraflar arası mesafe açıldı*/
+}
+
+.text-4, .text-6, .text-8{
+    padding-bottom: 10px;   /*paragraflar ve fiyatlar arası mesafe açıldı*/
+}
+
+
+.section-9{
+    display: flex;  /*ortalayıp güzel bir konum verdi*/
+    flex-direction: column;   /*sağdan ve soldan öğeleri alt alata getirdi*/
+    background-color: rgb(53,66,74);  /*sectiona arka plan rengi eklendi*/
+    color: white;  /*yazıların rengini verdi*/
+    width: 45%;  /*section genişliği belirlendi*/
+    margin-left: 50px;  /*soldan genişlik verildi*/
+    padding: 20px 50px 90px 10px;    /*her taraftan genişlik verildi*/
+    height: 50%;  /*yükseklik verildi*/
+}
+
+.head-7{
+    padding-bottom: 25px;  /*başık kısmına alttan mesafe girildi*/
+}
+
+#namee, #maill{
+    padding: 5px;  /*content kısmına 4 taraftan aralık verildi*/
+    margin-bottom: 5px;  /*alttan aralık verildi*/
+}
+
+#messagee{
+    margin-bottom: 10px;  /*message ve button arasını açtı alttan değer vererek*/
+}
+
+#submitt{
+    width: 70px;  /*butona genişlik verildi*/
+    background-color: #E8491D;  /*arkaplan rengi verildi*/
+    color: white;  /*yazı rengi verildi*/
+    border: none;  /*default olan border kaldırdı*/
+    padding: 12px 10px;  /*önce üstten-alttan sonra sağdan-soldan aralık verdi kısa yolla*/
+}
+     
+                    
