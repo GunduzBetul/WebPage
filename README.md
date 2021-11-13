@@ -2,4 +2,4 @@
 
 You can view the project via this link
 
-https://gunduzbetul.github.io/webpage/
+https://gunduzbetul.github.io/WebSite-PageDesign/
